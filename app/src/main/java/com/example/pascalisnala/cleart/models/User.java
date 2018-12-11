@@ -30,19 +30,15 @@ public class User {
     public int getUserid() {
         return userid;
     }
-
     public String getName() {
         return name;
     }
-
     public String getEmail() {
         return email;
     }
-
     public String getPhonenum() {
         return phonenum;
     }
-
     public String getUsername() {
         return username;
     }

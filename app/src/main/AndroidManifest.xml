@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activities.SignupActivity" />
-        <activity android:name=".Activities.HomeActivity"></activity>
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.DetailActivity" />
+        <activity android:name=".Activities.ReportActivity"></activity>
     </application>
 
 </manifest>

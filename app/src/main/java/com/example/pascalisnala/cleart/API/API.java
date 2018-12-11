@@ -1,11 +1,14 @@
 package com.example.pascalisnala.cleart.API;
 
+import com.example.pascalisnala.cleart.models.Attraction;
+import com.example.pascalisnala.cleart.models.HomeResponse;
 import com.example.pascalisnala.cleart.models.defaultResponse;
 import com.example.pascalisnala.cleart.models.loginResponse;
 
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface API {
@@ -26,5 +29,10 @@ public interface API {
             @Field("username") String username,
             @Field("password") String password
     );
+
+    @GET("loaddata")
+    Call<HomeResponse> getAttrData();
+
+
 
 }

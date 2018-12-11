@@ -86,7 +86,8 @@ public class MainActivity extends AppCompatActivity {
                 loginResponse loginResponse = response.body();
 
                 if (!loginResponse.isError()) {
-                    SharedPrefManager.getInstance(MainActivity.this)
+                    SharedPrefManager
+                            .getInstance(MainActivity.this)
                             .saveUser(loginResponse.getUser());
                     Toast.makeText(MainActivity.this, loginResponse.getMessage(), Toast.LENGTH_SHORT).show();
 

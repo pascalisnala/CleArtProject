@@ -319,12 +319,12 @@
         android:layout_marginRight="32dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:focusable="true"
         android:src="@drawable/backlayer"
         app:layout_constraintBottom_toTopOf="@+id/tvName"
         app:layout_constraintEnd_toStartOf="@+id/tvSignup"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:focusable="true" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

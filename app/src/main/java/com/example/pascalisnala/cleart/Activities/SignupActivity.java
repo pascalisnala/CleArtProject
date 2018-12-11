@@ -120,7 +120,7 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(SignupActivity.this, dr.getMessage(), Toast.LENGTH_SHORT).show();
                 } else {
                     //defaultResponse dr = response.errorBody();
-                    Toast.makeText(SignupActivity.this, "no thanks", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignupActivity.this, "User Already Exist   ", Toast.LENGTH_SHORT).show();
                 }
             }
 
